@@ -4,9 +4,9 @@ from lxml import html
 
 if __name__ == '__main__':
     pointer = 1
-    # with open('log.txt', 'w'):
+    # with open('dark_matter.txt', 'w'):
     #     pass
-    f = open('log.txt', 'a')
+    f = open('dark_matter.txt', 'a')
     for pages in range(1, 7900):  # 7908
         link = 'https://discuss.codechef.com/users/?sort=reputation&page='+str(pages)
         data = requests.get(link)
