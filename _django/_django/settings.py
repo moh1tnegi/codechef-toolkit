@@ -2,13 +2,14 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+SECRET_KEY = 'y0hd#5cu9v)rcx=75n8s&2g4u*x6uuf@zjesqto*%htx%h94x5'
 
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
+    'codechef.apps.CodechefConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
