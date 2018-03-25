@@ -2,8 +2,8 @@ from json import load
 
 
 if __name__ == '__main__':
-    UAK_database = 'from_all_ratings.json'
-    CAK_database = 'fabric_of_space_time.json'
+    UAK_database = 'fabric_of_space_time.json'
+    CAK_database = 'city_db.json'
 
     UAK_file = open(UAK_database)
     CAK_file = open(CAK_database)
@@ -32,8 +32,6 @@ if __name__ == '__main__':
         is_alive()
     elif int(usr_interaction) is 2:
         city_chefs()
-    else:
-        pass
 
     UAK_file.close()
     CAK_file.close()
