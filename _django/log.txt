@@ -1,0 +1,9 @@
+DEBUG:root:# logging starts
+DEBUG:root:# hell yeah
+DEBUG:root:['Gomel', 'Bucharest', 'Pyongyang', 'Moscow', 'Pyongyang', 'Ulm', 'Rīga', 'NULL', '杭州', 'Portland']
+DEBUG:root:['Homiel Province', 'Bucharest', 'Pyongyang', 'Moscow', 'Pyongyang', 'Baden-Wurttemberg', 'Rīgas pilsēta', 'NULL', '浙江省', 'Oregon']
+DEBUG:root:['Saint Petersburg National Research University of Information Technologies, Mechanics and Optics ', 'NULL', 'Kim Chaek University of Technology ', 'Lomonosov Moscow State University ', 'Kim II-sung University ', 'FernUniversität Hagen ', 'NULL', 'École polytechnique fédérale de Lausanne ', 'Zhejiang University ', 'Catlin Gabel School Portland, OR 97225, United States']
+DEBUG:root:# hell yeah
+DEBUG:root:['Gomel', 'Bucharest', 'Pyongyang', 'Moscow', 'Pyongyang', 'Ulm', 'Rīga', 'NULL', '杭州', 'Portland']
+DEBUG:root:['Homiel Province', 'Bucharest', 'Pyongyang', 'Moscow', 'Pyongyang', 'Baden-Wurttemberg', 'Rīgas pilsēta', 'NULL', '浙江省', 'Oregon']
+DEBUG:root:['Saint Petersburg National Research University of Information Technologies, Mechanics and Optics ', 'NULL', 'Kim Chaek University of Technology ', 'Lomonosov Moscow State University ', 'Kim II-sung University ', 'FernUniversität Hagen ', 'NULL', 'École polytechnique fédérale de Lausanne ', 'Zhejiang University ', 'Catlin Gabel School Portland, OR 97225, United States']
