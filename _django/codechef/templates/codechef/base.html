@@ -45,7 +45,13 @@
             <div class="collapse navbar-collapse" id="navToTop">
                 <div class="container">
                     <form class="form-inline" action="/search/">
-                        <input class="form-control mr-sm-2" type="text" name="srch" placeholder="Search a username">
+                        <select class="form-control mr-sm-2" name="query">
+                            <option>Username</option>
+                            <option>City</option>
+                            <option>State</option>
+                            <option>Institution</option>
+                        </select>
+                        <input class="form-control mr-sm-2" type="text" name="srch" placeholder="Search">
                         <button class="btn btn-success" type="submit">Search</button>
                     </form>
                 </div>
@@ -62,6 +68,9 @@
             </div>
         </div>
     </nav>
+    <div class="alert alert-dark text-center" style="margin-bottom: 0">
+      This website is under development stage. Yet, it is still usable.
+    </div>
     <div class="parallax">
         <div class="container">
             {% block body %}

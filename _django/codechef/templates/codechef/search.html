@@ -12,6 +12,15 @@
         </div>
         <div class="row" style="margin:0 12% 0 10%;">
             <div class="col-sm-6 col-xs-6" style="margin: 0 auto;">
+                {% if messages %}
+            		<div class="jumbotron" style="margin-top: 2%;color: #155748;background-color: #bee5eb;">
+            			<h1>No results found!</h1>
+                        {% for error in messages %}
+                            {{ error }}
+                        {% endfor %}
+                        <span>Click <a href="https://www.codechef.com/signup" target="_blank">here</a> to register.</span>
+                	</div>
+				{% else %}
                 <ul class="list-group text-center">
                     <li class="list-group">
                         <span class="badge badge-pill">
@@ -30,11 +39,6 @@
             </div>
             <div class="col-sm-6 col-xs-6" style="margin: 0 auto;">
                 <ul class="list-group text-center">
-                    {% if messages %}
-                        {% for error in messages %}
-                            <li>{{ error }}</li>
-                        {% endfor %}
-                    {% endif %}
                     {% if sr %}
                         <li class="list-group">
                             <span class="badge badge-pill">
@@ -69,6 +73,7 @@
                         </li>
                     {% endif %}
                 </ul>
+                {% endif %}
             </div>
         </div>
     </div>
