@@ -5,7 +5,10 @@
     <style type="text/css" rel="stylesheet">
         a {
             color: #115468;
-            overflow: hidden;
+            overflow: hidden;           
+        }
+        #disabled-link {
+            pointer-events: none;
         }
 	</style>
 {% endblock %}
@@ -21,7 +24,7 @@
             <li class="list-group">
                 <span class="badge badge-pill">
                     {% for cty in cities %}
-                        <a href="" class="list-group-item list-group-item-action list-group-item-info">
+                        <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                             <strong>{{ cty }}</strong>
                         </a>
                     {% endfor %}
@@ -39,7 +42,7 @@
             <li class="list-group">
                 <span class="badge badge-default">
                     {% for insti in instit %}
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-info">
+                        <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                             <strong>{{ insti }}</strong>
                         </a>
                     {% endfor %}
@@ -57,7 +60,7 @@
             <li class="list-group">
                 <span class="badge badge-default">
                     {% for stat in states %}
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-info">
+                        <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                             <strong>{{ stat }}</strong>
                         </a>
                     {% endfor %}

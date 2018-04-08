@@ -1,6 +1,11 @@
 {% extends 'codechef/base.html' %}
 {% block style %}
     <style type="text/css" rel="stylesheet">
+        #disabled-link {
+            color: #115468;
+            overflow: hidden;
+            pointer-events: none;
+        }
     </style>
 {% endblock %}
 {% block body %}
@@ -42,31 +47,31 @@
                     {% if sr %}
                         <li class="list-group">
                             <span class="badge badge-pill">
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.username }}</strong>
                                 </a>
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.country }}</strong>
                                 </a>
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.state }}</strong>
                                 </a>
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.city }}</strong>
                                 </a>
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.inst }}</strong>
                                 </a>
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.usr_type }}</strong>
                                 </a>
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.global_rank }}</strong>
                                 </a>
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.country_rank }}</strong>
                                 </a>
-                                <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                            <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                                     <strong>{{ sr.ratings }}</strong>
                                 </a>
                             </span>

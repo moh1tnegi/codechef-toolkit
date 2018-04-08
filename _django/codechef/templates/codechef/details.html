@@ -2,6 +2,12 @@
 
 {% block style %}
     <style rel="stylesheet">
+        #disabled-link {
+            color: #115468;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
         .pagination {
             clear: both;
             position: relative;
@@ -31,7 +37,7 @@
             <li class="list-group">
                 <span class="badge badge-pill">
                     {% for info in detail %}
-                        <a style="overflow:hidden;" href="#" class="list-group-item list-group-item-action list-group-item-info">
+                        <a id="disabled-link" href="#" class="list-group-item list-group-item-info">
                             <strong>{{ info }}</strong>
                         </a>
                     {% endfor %}
